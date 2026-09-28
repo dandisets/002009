@@ -27,8 +27,8 @@ assetsSummary:
   variableMeasured:
   - ProcessingModule
 citation: Sciolino, Natale; Fan, Will; To, Paula (2026) Locus coeruleus activation
-  transforms cortical taste representations (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/002009/draft
+  transforms cortical taste representations (Version 0.260928.1442) [Data set]. DANDI
+  Archive. https://doi.org/10.48324/dandi.002009/0.260928.1442
 contributor:
 - affiliation: []
   email: natale.sciolino@uconn.edu
@@ -54,24 +54,38 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-09-24T15:27:20.841145+00:00'
+datePublished: '2026-09-28T14:42:18.737619+00:00'
 description: This Dandiset contains processed, trial-aligned single-cell calcium activity
   recorded from mouse gustatory cortex during intraoral tastant delivery and optogenetic
   activation of locus coeruleus axons. It includes ChrimsonR and tdTomato control
   animals across phasic and tonic stimulation experiments using palatability, sucrose-NaCl
   mixture, and sucrose concentration stimulus sets. Neural activity consists of CNMFe-derived
   deltaF/noise traces.
+doi: 10.48324/dandi.002009/0.260928.1442
 ethicsApproval: []
-id: DANDI:002009/draft
+id: DANDI:002009/0.260928.1442
 identifier: DANDI:002009
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/002009/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/002009/0.260928.1442/assets.yaml
 name: Locus coeruleus activation transforms cortical taste representations
+publishedBy:
+  endDate: '2026-09-28T14:42:18.737619+00:00'
+  id: urn:uuid:d1b27c48-526d-4c3c-b5e3-b5e12119117d
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-09-28T14:42:18.737619+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:5c14a8e4-42c7-402e-9c4b-6c9965af0506
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/002009/draft
-version: draft
+url: https://dandiarchive.org/dandiset/002009/0.260928.1442
+version: 0.260928.1442
 wasGeneratedBy: []
